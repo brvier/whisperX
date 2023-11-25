@@ -335,7 +335,7 @@ def load_model(whisper_arch,
     if vad_options is not None:
         default_vad_options.update(vad_options)
 
-    vad_model = load_vad_model(torch.device(f"device:device_index"), use_auth_token=None, **default_vad_options)
+    vad_model = load_vad_model(torch.device(f"{device}:{device_index}"), use_auth_token=None, **default_vad_options)
 
     return FasterWhisperPipeline(
         model=model,

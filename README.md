@@ -1,4 +1,6 @@
-<h1 align="center">WhisperX</h1>
+<h1 align="center">WhisperX FORK</h1>
+
+<h3>Fork of whisperX with a little modification to assign VAD to a GPU in a multiple GPU env.</h3>
 
 <p align="center">
   <a href="https://github.com/m-bain/whisperX/stargazers">
